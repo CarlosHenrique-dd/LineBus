@@ -1,0 +1,45 @@
+div {
+    display: block;
+    font-family: arial;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.cdireita {
+    float: right;
+    width: 49.8%;
+    height: 100%;
+    border: 1px solid rgb(204, 188, 188);
+}
+
+.cdireita h2 {
+    text-align: center;
+    margin: 10px;
+    font-weight: normal;
+    justify-content: center;
+    align-content: center;
+}
+
+.cdireita table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.cdireita {
+    line-height: 22px;
+}
+
+.cdireita tbody th {
+    font-weight: normal;
+}
+
+.cesquerda {
+    float: left;
+    width: 49.8%;
+    height: 50px;
+    background: lightgreen;
+}
