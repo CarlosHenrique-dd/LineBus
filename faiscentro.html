@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/info.css">
+
+</head>
+
+<body>
+    <header id="header">
+
+        <a id="logo" href="index.html"><img src="imagens/logo.png" alt="logo"></a>
+
+        <nav id="nav">
+
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">Menu
+                <span id="bMenu"></span>
+            </button>
+
+            <ul id="menu" role="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="info">
+
+        <div class="main">
+            <h2>Horarios</h2>
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Domingo</th>
+                        <th>05:50 - 23:00</th>
+                    </tr>
+                    <tr>
+                        <th>Segunda-feira</th>
+                        <th>05:50 - 23:00</th>
+                    </tr>
+                    <tr>
+                        <th>Terça-feira</th>
+                        <th>05:50 - 18:20/th>
+                    </tr>
+                    <tr>
+                        <th>Quarta-feira</th>
+                        <th>05:50 - 18:20/th>
+                    </tr>
+                    <tr>
+                        <th>Quinta-feira</th>
+                        <th>05:50 - 18:20</th>
+                    </tr>
+                    <tr>
+                        <th>Sexta-feira</th>
+                        <th>05:50 - 18:20</th>
+                    </tr>
+                    <tr>
+                        <th>Sábado</th>
+                        <th>05:50 - 23:00</th>
+                    </tr>
+                </tbody>
+
+
+            </table>
+        </div>
+
+        <div class="sub">
+            <h2>Polivalente - Vergani</h2>
+            <input type="text" id="pesquisa" onkeyup="pesquisar()" placeholder="Pesquise uma Rua" title="Pesquisa">
+
+            <ul id="menuL">
+
+                <li>
+                    <p>R. Antônio Scodeler, 3471 | Britasul</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 3365 | Artcon Comércio De Blocos – Sentido Centro</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 2955</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 4115</p>
+                </li>
+                <li>
+                    <p>R. Eva Pereira Matos, 30 | Ponto Final Da Faisqueira – Posto De Saúde</p>
+                </li>
+                <li>
+                    <p>R. Eva Pereira Matos, 300</p>
+                </li>
+                <li>
+                    <p>R. Pedro Flauzino Filho, 373</p>
+                </li>
+                <li>
+                    <p>R. José Amado Carvalho, 85</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 3745 | Mercearia Lacerda</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 3521</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 3161 | Antigo Matadouro Municipal – Sentido Centro</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 3075</p>
+                </li>
+                <li>
+                    <p>Av. A, 390 | E.M. Vasconcelos Costa</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 1895 | Água Mineral Pouso Alegre</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 1681 | Casa Mendes Materiais De Construção</p>
+                </li>
+                <li>
+                    <p>R. José Gonçalves Miguel, 55 | Ponto Na Lateral Do Bar Da Esquina</p>
+                </li>
+                <li>
+                    <p>R. José Paulino Domingues, 414</p>
+                </li>
+                <li>
+                    <p>R. José Paulino Domingues, 240 | Alto Do Morro No Monte Azul - Sentido Centro</p>
+                </li>
+                <li>
+                    <p>R. José Vitor Domingues, 225</p>
+                </li>
+                <li>
+                    <p>R. José Vitor Domingues, 111 | Copasa – Reservatório Pão De Açucar</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 1475 | Vânia Cabeleireira – Sentido Centro</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 1295</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 1069 | Padaria São Cristóvão</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 965 | Cras Faisqueira – Sentido Centro</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 771 | Tadeu Materiais De Construção</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 355 | Empresa J. Macedo – Sentido Centro</p>
+                </li>
+                <li>
+                    <p>R. Antônio Scodeler, 192 | Estilo Automóveis Vw</p>
+                </li>
+                <li>
+                    <p>Av. Prefeito Tuany Toledo, 771 | Restaurante A Cantina</p>
+                </li>
+                <li>
+                    <p>R. Cel. Joaquim Roberto Duarte, 713 | Pouso Motors Veículos</p>
+                </li>
+                <li>
+                    <p>R. Cel. Joaquim Roberto Duarte, 535 | Pet Center Aukimia</p>
+                </li>
+                <li>
+                    <p>R. Cel. Joaquim Roberto Duarte, 137 | Açougue Nossa S. Aparecida</p>
+                </li>
+                <li>
+                    <p>Av. Ver. Antônio Augusto Ribeiro, 100 | Depósito De Gas Ultragaz – Centro</p>
+                </li>
+                <li>
+                    <p>Av. Cel. Alfredo Custódio De Paula, 333 | Clínica Corpus</p>
+                </li>
+                <li>
+                    <p>Av. Duque De Caxias, 106 | Faisqueira, Belo Horizonte, Fátima, Distrito</p>
+                </li>
+
+            </ul>
+        </div>
+
+    </main>
+
+</body>
+<script src="JavaScript/navbar.js"></script>
+<script src="JavaScript/busca.js"></script>
+
+</html>

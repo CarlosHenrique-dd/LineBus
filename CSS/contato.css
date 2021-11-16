@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+main{
+  background: #0d0e0f;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+h1{
+  color: white;
+}
+form{
+  color: white;
+}

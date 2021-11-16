@@ -1,0 +1,20 @@
+body{
+    background-color: #d9d9f3;
+}
+h1{
+    margin: 20px;
+    font-size: 40px;
+}
+
+P{
+    font-size: 35px;
+}
+
+main img{
+    text-align: center;
+    margin: 30px;
+}
+
+main{
+    text-align: center;
+}

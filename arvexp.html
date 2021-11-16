@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Santo Expedito | Árvore Grande</title>
+
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/info.css">
+
+</head>
+
+<body>
+    <header id="header">
+
+        <a id="logo" href="index.html"><img src="imagens/logo.png" alt="logo"></a>
+
+        <nav id="nav">
+
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">Menu
+                <span id="bMenu"></span>
+            </button>
+
+            <ul id="menu" role="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="info">
+
+        <div class="main">
+            <h2>Horarios</h2>
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Domingo</th>
+                        <th>Fora de operação</th>
+                    </tr>
+                    <tr>
+                        <th>Segunda-feira</th>
+                        <th>Fora de operação</th>
+                    </tr>
+                    <tr>
+                        <th>Terça-feira</th>
+                        <th>06:00 - 15:00</th>
+                    </tr>
+                    <tr>
+                        <th>Quarta-feira</th>
+                        <th>06:00 - 15:00</th>
+                    </tr>
+                    <tr>
+                        <th>Quinta-feira</th>
+                        <th>06:00 - 15:00</th>
+                    </tr>
+                    <tr>
+                        <th>Sexta-feira</th>
+                        <th>06:00 - 15:00</th>
+                    </tr>
+                    <tr>
+                        <th>Sábado</th>
+                        <th>Fora de operação</th>
+                    </tr>
+                </tbody>
+
+
+            </table>
+        </div>
+
+        <div class="sub">
+            <h2>Santo Expedito | Árvore Grande</h2>
+            <input type="text" id="pesquisa" onkeyup="pesquisar()" placeholder="Pesquise uma Rua" title="Pesquisa">
+
+            <ul id="menuL">
+                <li>
+                    <p>Av. Duque De Caxias, 119 | Linhas Da Av. Prefeito Olavo Gomes</p>
+                </li>
+                <li>
+                    <p>Praça João Pinheiro | Cruzeiro, Vergani, Árvore Grande, São Carlos, Jd. Olímpico</p>
+                </li>
+                <li>
+                    <p>Av. Marechal Castelo Branco, 772 | 14º Gac – Próximo À Garagem Da Prefeitura</p>
+                </li>
+                <li>
+                    <p>Av. Levino Ribeiro Do Couto, 400 | Antiga Estação De Trem</p>
+                </li>
+                <li>
+                    <p>Av. Antonio Mariosa, 2120 | Up Pneus Auto Center</p>
+                </li>
+                <li>
+                    <p>Av. Antônio Mariosa, 2300 | Terminal Rodoviário</p>
+                </li>
+                <li>
+                    <p>Av. Antônio Mariosa, 2215 | Campneus</p>
+                </li>
+                <li>
+                    <p>Av. Ver. Antônio Da Costa Rios, 268 | Senai – Sentido Bairro</p>
+                <li>
+                    <p>Av. Ver. Antônio Da Costa Rios, 510 | All Safety Loja De Epis</p>
+                <li>
+                    <p>Av. Ver. Antônio Da Costa Rios, 848 | Takashi Centro Automotivo</p>
+                </li>
+                <li>
+                    <p>Av. Ver. Antônio Da Costa Rios, 1060 | Mundial Ferramentas</p>
+                </li>
+                <li>
+                    <p>Av. Ver. Antônio Da Costa Rios, 1340 | Rede Casa Mais</p>
+                </li>
+                <li>
+                    <p>Av. Pref. Olavo Gomes De Oliveira, 1940 | Banco Bradesco – Agência Foch</p>
+                </li>
+                <li>
+                    <p>Av. Pref. Olavo Gomes De Oliveira, 2084 | Top Pneus</p>
+                </li>
+                <li>
+                    <p>Av. Pref. Olavo Gomes De Oliveira, 2424 | Caninos Pet Shop</p>
+                </li>
+                <li>
+                    <p>Av. Moisés Lopes Da Silva, 230 | Rei Do Gás – Sentido Bairro</p>
+                </li>
+                <li>
+                    <p>Av. Moisés Lopes Da Silva, 554 | Katita Pet Center</p>
+                </li>
+                <li>
+                    <p>Av. Moisés Lopes Da Silva, 914 | Mecânica São José</p>
+                </li>
+                <li>
+                    <p>R. Dirceu De Melo Braga, 43 | Vitrais Kingdom</p>
+                </li>
+                <li>
+                    <p>Av. Luiz Gonzaga Nunes Maia, 745 | Caic Árvore Grande – Sentido Bairro</p>
+                </li>
+                <li>
+                    <p>R. Mônica Nunes Maia, 651 | Padaria Xangri-Lá – Sentido Bairro</p>
+                </li>
+                <li>
+                    <p>R. Mônica Nunes Maia, 187</p>
+                </li>
+                <li>
+                    <p>R. Mônica Nunes Maia, 303 | Mercearia Mariosa</p>
+                </li>
+                <li>
+                    <p>R. Mônica Nunes Maia, 7 | Ponto Final Do Árvore Grande</p>
+                </li>
+                <li>
+                    <p>Av. Pref. Olavo Gomes De Oliveira, 3460 | Martsul Atacarejo</p>
+                </li>
+                <li>
+                    <p>Av. Pref. Olavo Gomes De Oliveira, 3944 | Lanchonete São Cristóvão</p>
+                </li>
+                <li>
+                    <p>Av. Pref. Olavo Gomes De Oliveira, 4550 | União Química Farmacêutica</p>
+                </li>
+                <li>
+                    <p>Av. Pref. Olavo Gomes De Oliveira, 4892 | 20º Batalhão Pmmg</p>
+                </li>
+                <li>
+                    <p>R. Sargento José Domingos Filho, 16 | Universal Comércio De Papéis E Recicláveis</p>
+                </li>
+                <li>
+                    <p>R. Sargento José Domingos Filho, 162 | Depósito De Sucata</p>
+                </li>
+                <li>
+                    <p>R. Cel. Valter Custódio Da Silva, 156 | Bar E Mercearia Do Francisco – Sentido Bairro</p>
+                </li>
+                <li>
+                    <p>Av. Dr. João Crescêncio Ribeiro, 420</p>
+                </li>
+                <li>
+                    <p>R. José Antônio Dos Santos, 140 | Ponto Final Do Santo Expedito</p>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+</body>
+<script src="/JavaScript/navbar.js"></script>
+<script src="/JavaScript/busca.js"></script>
+
+</html>
