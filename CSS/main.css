@@ -1,0 +1,27 @@
+ 
+  body {
+    background: white;
+  }
+  
+  .container {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .itens{
+    background: #23232e;
+    padding: 15px;
+    border-radius: 23px;
+  }
+    
+  a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
